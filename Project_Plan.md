@@ -12,14 +12,15 @@
  3. **User and Market Research**
 
 * Who are your **users**? -> children and youth 
-* Any **existing tools** solving this problem?
-* What can you **do better** or differently?
+* Any **existing tools** solving this problem? -> (OpenFace + FER + AffectNet + DeepFace)
 
 
 ### ✅ 4. **Tech Feasibility**
 
-* Skills Required:
-* Tools Required:
+* Skills Required: Computer Vision, Deep Learning, Python Programming, OpenCV, Data Preprocessing, Facial Landmark Detection, Emotion Classification, Dataset Handling (e.g., FER+, AffectNet), Model Evaluation, Machine Learning Fundamentals, API Integration (optional for deployment)
+
+* Tools Required: Python, OpenCV, TensorFlow, PyTorch, Keras, Dlib, DeepFace, Jupyter Notebook, NumPy, Pandas, Matplotlib, Seaborn, FER Library, MediaPipe (optional), Flask or FastAPI (for deployment), Git, Google Colab or JupyterLab, Visual Studio Code (VS Code)
+
 * Is the AI/ML model **available**, trainable, or too complex for now?
 * Any APIs, datasets, or frameworks available?
 
