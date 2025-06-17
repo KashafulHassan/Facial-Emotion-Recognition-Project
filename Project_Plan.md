@@ -21,8 +21,9 @@
 
 * Tools Required: Python, OpenCV, TensorFlow, PyTorch, Keras, Dlib, DeepFace, Jupyter Notebook, NumPy, Pandas, Matplotlib, Seaborn, FER Library, MediaPipe (optional), Flask or FastAPI (for deployment), Git, Google Colab or JupyterLab, Visual Studio Code (VS Code)
 
-* Is the AI/ML model **available**, trainable, or too complex for now?
+* Is the AI/ML model **available**, trainable, or too complex for now?  -> trainable with mimal effort/ complex when built from scratch
 * Any APIs, datasets, or frameworks available?
+*    DeepFace, FER 2013 Dataset, MediaPipe, OpenCn + DNN, Hugging Face Models all are free and available
 
 
 ### ✅ 5. **Scope & Features**
@@ -36,26 +37,30 @@
 
 * Choose tools based on ease, scalability, and your comfort:
 
-  * Language (Python, JavaScript…)
-  * Framework (Flask, Django, React…)
-  * AI Tools (OpenAI, HuggingFace, LangChain, etc.)
-  * Database (Firebase, MongoDB, PostgreSQL…)
-
+  * Language (Python)
+  * Framework (Flask) **not needed as of yet as using local window
+  * AI Tools (DeepFace / FER)
+  * Camera Feed (OpenCv)
 ---
 
 ### ✅ 7. **Architecture Design**
 
 * Basic **system architecture** diagram
+*    It runs locally with OpenCV GUI.
+*    WebCam -> Python(Backend) ->DeepFace(AI Model)
 * How components (frontend, backend, AI, DB) connect
-* API design or flow (if any)
-
----
+*    No frontend-backend separation yet. It runs locally with OpenCV GUI.
 
 ### ✅ 8. **Data Considerations (For AI Projects)**
 
 * What data do you need?
+*    Images or video frames of faces showing different emotions:
+*       Happy 😄
+*       Sad 😢
+*       Angry 😠
 * Do you need to **collect**, **scrape**, or **buy** it?
-* Do you need to **clean** or label it?
+*      Using pre trained model trained on FER-2013
+* Do you need to **clean** or label it? NO
 
 ### ✅ 9. **Time & Resource Planning**
 
